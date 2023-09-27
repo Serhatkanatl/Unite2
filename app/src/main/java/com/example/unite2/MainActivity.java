@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, SS64Activity.class);
         startActivity(i);
     }
+
+    public void onayla(View view) {
+        Intent i = new Intent(MainActivity.this, ActivitySS65.class);
+        startActivity(i);
+    }
 }
